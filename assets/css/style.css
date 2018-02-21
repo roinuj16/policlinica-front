@@ -578,7 +578,7 @@ button {
 	color: #fff;
 }
 .btn-color-line {
-	border-color: #19b5fe;
+	border-color: #009152 !important;
 	color: #19b5fe;
 }
 .btn-link-a, .btn-link-b {
@@ -1433,7 +1433,7 @@ form label.error {
 	border-color: #eee;
 }
 .footer .footer-info p {
-	color: #7f7f7f;
+	color: #fff;
 	margin-bottom: 0px;
 }
 .footer-info .col-xs-12 {
@@ -1460,7 +1460,7 @@ form label.error {
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #7f7f7f;
+	color: #fff;
 }
 .footer h5 {
 	color: #f0eded;
@@ -1570,14 +1570,14 @@ form label.error {
 	background: none;
 	border-radius: 0;
 	border: 1px solid #B1AFAF;
-	color: #7f7f7f;
+	color: #fff;
 }
 .newsletter .newsletter-btn {
 	position: absolute;
 	top: 0px;
 	right: 0px;
 	font-size: 18px;
-	background: #7f7f7f;
+	background: #fff;
 	line-height: 23px;
 	border-radius: 0;
 	width: 49px;
@@ -5242,7 +5242,7 @@ top: 29%;
 	background: #19b5fe;
 }
 #timetable .fc-timetable-wrapper .fc-toolbar h2 {
-	color: #7f7f7f;
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -5400,7 +5400,7 @@ top: 29%;
 	border-color: #00ABFB;
 }
 #timetable .fc-timetable-wrapper td.fc-time {
-	color: #7f7f7f;
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
