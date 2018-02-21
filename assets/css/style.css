@@ -1468,10 +1468,10 @@ form label.error {
 }
 .footer .link-small a {
 	text-transform: none;
-	color: #7f7f7f;
+	color: #fff;
 }
 .footer address {
-	color: #7f7f7f;
+	color: #fff;
 	position: relative;
 	padding-left: 30px;
 }
@@ -1512,7 +1512,7 @@ form label.error {
 }
 .footer .post-content {
 	font-size: 12px;
-	color: #615F5F;
+	color: #fff;
 	text-transform: uppercase;
 }
 .footer .fa-icons {
@@ -4372,7 +4372,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .timing li {
 	overflow: hidden;
-	border-bottom: 1px solid #3990B9;
+	border-bottom: 1px solid #fff;
 	font-size: 14px;
 	padding: 10px 0;
 }
@@ -4463,7 +4463,7 @@ ul.project-detail-block, .project-detail-block ul {
 	color: #fff;
 }
 .content-carousel .owl-controls .owl-buttons .owl-prev, .content-carousel .owl-controls .owl-buttons .owl-next, .image-slider .owl-controls .owl-buttons .owl-prev, .image-slider .owl-controls .owl-buttons .owl-next, .fullwidth-slider .owl-controls .owl-buttons .owl-prev, .fullwidth-slider .owl-controls .owl-buttons .owl-next, .nf-carousel-theme .owl-controls .owl-buttons .owl-prev, .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
-	background: rgba(25, 157, 254, 0.79);
+	background: rgba(0, 209, 16, 0.7);
 	color: #fff;
 	display: block;
 	top: 50%;
@@ -4535,7 +4535,7 @@ ul.project-detail-block, .project-detail-block ul {
 	top: 0;
 	left: 0;
 	z-index: 9999999;
-	background: #19b5fe;
+	background: rgba(0, 209, 16, 0.7);
 }
 .sk-circle {
 	width: 80px;

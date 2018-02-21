@@ -45,20 +45,20 @@
 }
 .ui-datepicker-prev,
 .ui-datepicker-next {
-  background: #0178b0 !important;
+  background: #005231 !important;
 }
 .filter-button-group {
-  background: #32bdfe;
+  background: #009152;
 }
 .page-signin .body-inner:before {
-  background-color: #19b5fe;
+  background-color: #009152;
 }
 .header-2 .navigation > ul > li:hover,
 .schedule .nav-tabs > li:hover,
 .schedule .nav-tabs > li.active,
 .nf-carousel-theme .owl-controls .owl-buttons .owl-prev:hover,
 .nf-carousel-theme .owl-controls .owl-buttons .owl-next:hover {
-  background: #019be3;
+  background: #009152;
 }
 .navigation .sub-nav,
 .overlay-bg-color:before,
@@ -117,13 +117,13 @@ a:hover,
 .top-social-icon a.btn:hover,
 .header-2 .top-bar-section.top-bar-bg-color a:hover,
 .call-us ul li a:hover {
-  color: #19b5fe;
+  color: #009152;
 }
 .widget-tag li a {
-  color: #19b5fe !important;
+  color: #009152 !important;
 }
 .quote:before {
-  color: rgba(25, 181, 254, 0.8);
+  color: rgba(0, 209, 16, 0.7);
 }
 /*
 ============== Border Color====================
@@ -158,7 +158,7 @@ a:hover,
 }
 .header-2 .navigation > ul > li,
 .timing li {
-  border-color: #019be3;
+  border-color: #fff;
 }
 @media (max-width: 767px) {
   .navigation,
