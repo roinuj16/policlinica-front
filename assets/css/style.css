@@ -336,6 +336,27 @@ mark {
 .flaticon-transport:before {
 	content: "\f10f";
 }
+.psicologia:before {
+	content: url("../images/psicologia.png");
+	color: #fff;
+}
+.cardio:before {
+	content: url("../icones/cardiogram_16.png");
+	color: #fff;
+}
+.ginecologista:before {
+	content: url("../icones/gynecologist_16.png");
+	color: #fff;
+}
+
+.dermatologista:before {
+	content: url("../icones/dermatologista_branco_16.png");
+	color: #fff;
+}
+
+
+
+
 /*border*/
 .multbg-top-to-bottom {
 	border-top: 2px solid #19b5fe;
