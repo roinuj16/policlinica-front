@@ -346,12 +346,21 @@ mark {
 }
 .ginecologista:before {
 	content: url("../icones/gynecologist_16.png");
-	color: #fff;
 }
-
 .dermatologista:before {
-	content: url("../icones/dermatologista_branco_16.png");
-	color: #fff;
+	content: url("../icones/dermatologista2_16.png");
+}
+.laudo:before {
+	content: url("../icones/report_black_16.png");
+}
+.hospital:before {
+	content: url("../icones/hospital_16.png");
+}
+.medico_trabalho:before {
+	content: url("../icones/ophthalmologist_16.png");
+}
+.psicologia:before {
+	content: url("../icones/psicologia_16.png");
 }
 
 
