@@ -348,7 +348,7 @@ mark {
 	content: url("../icones/gynecologist_16.png");
 }
 .dermatologista:before {
-	content: url("../icones/dermatologista2_16.png");
+	content: url("../icones/dermatologista_16.png");
 }
 .laudo:before {
 	content: url("../icones/report_black_16.png");
@@ -361,6 +361,9 @@ mark {
 }
 .psicologia:before {
 	content: url("../icones/psicologia_16.png");
+}
+.urologia:before {
+    content: url("../icones/doctor2_16.png");
 }
 
 
@@ -573,7 +576,8 @@ button {
 	color: #323232;
 }
 .btn-black-line, .btn-white-line, .btn-color-line {
-	border: 1px solid;
+	border: 2px solid;
+    border-radius: 25px;
 	background: none;
 }
 .btn-black-line {
