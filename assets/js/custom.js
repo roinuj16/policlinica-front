@@ -105,31 +105,6 @@ $(document).ready(function() {
 		$(this).hide();
 		return false;
 	});
-	//==========================================
-	//===============counter Function========
-	if ($('.counter').length) {
-		$('.counter').appear(function() {
-			$(".counter").each(function() {
-				var e = $(this),
-				    a = e.attr("data-count");
-				$({
-					countNum : e.text()
-				}).animate({
-					countNum : a
-				}, {
-					duration : 8e3,
-					easing : "linear",
-					step : function() {
-						e.text(Math.floor(this.countNum))
-					},
-					complete : function() {
-						e.text(this.countNum)
-					}
-				})
-			})
-		})
-	}
-	//==========================================
 	//===============Datepicker Function========
 	if ($('.datepicker').length) {
 		$(".datepicker").datepicker();
