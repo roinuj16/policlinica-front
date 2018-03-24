@@ -138,7 +138,14 @@
   </header>
   <!-- END HEADER -->
 
-
+  <section class="inner-intro  overlay-bg-color light-color parallax ">
+    <div class="container">
+      <div class="row title">
+        <h2 class="h2">Especialidades</h2>
+        <div class="page-breadcrumb"> <a>Início</a>/<span><a onclick="voltarTela();">Especialidades</a></span> </div>
+      </div>
+    </div>
+  </section>
   <!-- Blog Section -->
   <section id="" class="wow fadeIn ptb-80">
     <div class="container">
@@ -148,7 +155,7 @@
               <a href="#" data-toggle="modal" id="Fisioterapia" onclick="mudaTela( this.id )" data-target="#myModal">
                 <img src="assets/images/image1.jpg" alt="Lights" style="width:100%">
                 <div class="caption">
-                  <h4 class="text-center">Fisioterapia</h4>
+                  <h4 class="text-center" style="color: #31B77D;">Fisioterapia</h4>
                 </div>
               </a>
             </div>
@@ -158,7 +165,7 @@
               <a href="#" data-toggle="modal" id="Cardiologia" onclick="mudaTela( this.id )" data-target="#myModal">
                 <img src="assets/images/image1.jpg" alt="Lights" style="width:100%">
                 <div class="caption">
-                  <h4 class="text-center">Cardiologia</h4>
+                  <h4 class="text-center" style="color: #31B77D;">Cardiologia</h4>
                 </div>
               </a>
             </div>
@@ -168,7 +175,7 @@
               <a href="#" data-toggle="modal" id="Estética" onclick="mudaTela( this.id )" data-target="#myModal">
                 <img src="assets/images/image1.jpg" alt="Lights" style="width:100%">
                 <div class="caption">
-                  <h4 class="text-center">Estética</h4>
+                  <h4 class="text-center" style="color: #31B77D;">Estética</h4>
                 </div>
               </a>
             </div>
@@ -178,7 +185,7 @@
               <a href="#" data-toggle="modal" id="ortopedia" onclick="mudaTela( this.id )" data-target="#myModal">
                 <img src="assets/images/image1.jpg" alt="Lights" style="width:100%">
                 <div class="caption">
-                  <h4 class="text-center">Ortopedia</h4>
+                  <h4 class="text-center" style="color: #31B77D;">Ortopedia</h4>
                 </div>
               </a>
             </div>
@@ -190,7 +197,8 @@
         </div>
         <div class="col-md-8 col-sm-12 col-xs-12">
           <div class="page-header">
-            <h3><small class="js-titulo"></small></h3>
+            <h3 class="js-titulo" style="color: #31B77D;"></h3>
+            <!--<h3><small ></small></h3>-->
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, aperiam architecto doloribus ex impedit ipsum magni quas voluptatem voluptates voluptatibus. Eum, exercitationem, fugiat. Aspernatur ducimus fuga recusandae repellendus tenetur voluptatibus!
@@ -317,6 +325,10 @@
       }else {
           $('.js-desc').hide();
       }
+  }
+  voltarTela = function () {
+      $('.js-tela-desc').hide();
+      $('.js-thumbs').show();
   }
 </script>
 
