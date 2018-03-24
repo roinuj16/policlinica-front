@@ -1,0 +1,23 @@
+{
+  "name": "policlinica-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files '*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roinuj16/policlinica-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roinuj16/policlinica-front/issues"
+  },
+  "homepage": "https://github.com/roinuj16/policlinica-front#readme",
+  "dependencies": {
+    "httpserver": "^0.3.0"
+  }
+}
